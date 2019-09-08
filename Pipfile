@@ -6,6 +6,13 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+numpy = "*"
+pandas = "*"
+spacy = "*"
+scattertext = "*"
+flask = "*"
+flask-cors = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.6"

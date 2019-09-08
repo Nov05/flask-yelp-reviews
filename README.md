@@ -2,7 +2,7 @@
 
 This is an spaCy+scattertext NLP app hosted on Heroku.
 
-Call API:
+### Call API  
 request  
 `{"yelp_url": "https://www.yelp.com/biz/aunt-jakes-new-york"}`  
 

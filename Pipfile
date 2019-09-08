@@ -9,7 +9,7 @@ verify_ssl = true
 numpy = "*"
 pandas = "*"
 spacy = "*"
-scattertext = "*"
+scattertext = "==0.0.2.52"
 flask = "*"
 flask-cors = "*"
 gunicorn = "*"

@@ -85,10 +85,10 @@ https://github.com/JasonKessler/scattertext
 # Examples
 
 Web scraping  
-<img src="https://github.com/Nov05/pictures/blob/master/pic001/2019-09-08%2022_12_18-2019-09-07%20yelp%20reviews%20flask%20app.ipynb%20-%20Colaboratory.png?raw=true" width=700>  
+<img src="https://github.com/Nov05/pictures/blob/master/pic001/2019-09-08%2022_12_18-2019-09-07%20yelp%20reviews%20flask%20app.ipynb%20-%20Colaboratory.png?raw=true" width=500>  
 
 Scattertext NLP  
-<img src="https://github.com/Nov05/pictures/blob/master/pic001/2019-09-08%2022_01_04-2019-09-07%20yelp%20reviews%20flask%20app.ipynb%20-%20Colaboratory.png?raw=true" width=700>  
+<img src="https://github.com/Nov05/pictures/blob/master/pic001/2019-09-08%2022_01_04-2019-09-07%20yelp%20reviews%20flask%20app.ipynb%20-%20Colaboratory.png?raw=true" width=400>  
 
 Scattertext NLP  
 <img src="https://github.com/Nov05/pictures/blob/master/pic001/2019-09-08%2021_59_17-2019-09-07%20yelp%20reviews%20flask%20app.ipynb%20-%20Colaboratory.png?raw=true" width=700> 

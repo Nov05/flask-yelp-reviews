@@ -1,6 +1,7 @@
 friends
 amazing
 awesome
+love
 male
 female
 girl
@@ -26,8 +27,14 @@ the
 had the
 around the
 at
-at the 
+at the
 he told
+he said
+she said
+i said
+we said
+you said
+they said
 is the
 place for
 1

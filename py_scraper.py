@@ -14,17 +14,18 @@ def scraper(url_yelp, num_reviews=20):
 
     colnames = ['date', 'text', 'rating']
     df_reviews = pd.DataFrame(columns=colnames)
-    with requests.get(url, timeout=20) as r: 
-        response = r.json()
-        div = html.fromstring(response['review_list'])
-        dates = div.xpath("//div[@class='review-content']/descendant::span[@class='rating-qualifier']/text()")
-        texts = [e.text for e in div.xpath("//div[@class='review-content']/p")]
-        ratings = div.xpath("//div[@class='review-content']/descendant::div[@class='biz-rating__stars']/div/@title")
-        df = pd.DataFrame([dates, texts, ratings]).T
-        df.columns = colnames
-        df['date'] = df['date'].apply(lambda x: x.strip())
-        df_reviews = pd.concat([df_reviews, df], 
-                               ignore_index=True)
-        del df
+    with requests.get(url, timeout=20) as response: 
+        if response.status_code==200:
+            string = response.json()
+            div = html.fromstring(string['review_list'])
+            dates = div.xpath("//div[@class='review-content']/descendant::span[@class='rating-qualifier']/text()")
+            texts = [e.text for e in div.xpath("//div[@class='review-content']/p")]
+            ratings = div.xpath("//div[@class='review-content']/descendant::div[@class='biz-rating__stars']/div/@title")
+            df = pd.DataFrame([dates, texts, ratings]).T
+            df.columns = colnames
+            df['date'] = df['date'].apply(lambda x: x.strip())
+            df_reviews = pd.concat([df_reviews, df], 
+                                   ignore_index=True)
+            del df
    
     return df_reviews

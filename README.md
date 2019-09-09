@@ -10,7 +10,7 @@ https://yelp-reviews.herokuapp.com/
 https://yelp-reviews.herokuapp.com/api/terms  
 
 **Request JSON example**    
-`{"yelp_url": "https://www.yelp.com/biz/aunt-jakes-new-york"}`  
+```{"yelp_url": "https://www.yelp.com/biz/aunt-jakes-new-york"}```   
 **Response JSON example**   
 ```
 {
@@ -77,4 +77,19 @@ Go to deployment page
 https://dashboard.heroku.com/apps/yelp-reviews/deploy/github  
 Google Colab notebook   
 https://colab.research.google.com/drive/1nvnFu8SjFz30tMVnP7zcksUrkCSodqc_   
+Scattertext   
+https://github.com/JasonKessler/scattertext  
 
+# Examples
+
+Web scraping  
+<img src="https://github.com/Nov05/pictures/blob/master/pic001/2019-09-08%2022_12_18-2019-09-07%20yelp%20reviews%20flask%20app.ipynb%20-%20Colaboratory.png?raw=true" width=700>  
+
+Scattertext NLP  
+<img src="https://github.com/Nov05/pictures/blob/master/pic001/2019-09-08%2022_01_04-2019-09-07%20yelp%20reviews%20flask%20app.ipynb%20-%20Colaboratory.png?raw=true" width=700>  
+
+Scattertext NLP  
+<img src="https://github.com/Nov05/pictures/blob/master/pic001/2019-09-08%2021_59_17-2019-09-07%20yelp%20reviews%20flask%20app.ipynb%20-%20Colaboratory.png?raw=true" width=700> 
+
+Scattertext NLP   
+<img src="https://github.com/Nov05/pictures/blob/master/pic001/2019-09-08%2021_58_39-2019-09-07%20yelp%20reviews%20flask%20app.ipynb%20-%20Colaboratory.png?raw=true" width=700> 

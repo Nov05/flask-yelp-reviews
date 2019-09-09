@@ -1,0 +1,6 @@
+README.md 
+__pycache__
+datasets/  
+notebooks/
+images/
+.ipynb_checkpoints/

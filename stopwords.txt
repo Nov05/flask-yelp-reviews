@@ -5,6 +5,7 @@ male
 female
 girl
 boy
+place
 u
 want
 cuz
@@ -13,4 +14,54 @@ told
 check
 coffee
 place
-ve
+it 's
+is
+the
+in that
+to try
+for
+10
+i had
+the
+had the
+around the
+at
+at the 
+he told
+is the
+place for
+1
+2
+3
+4
+5
+6
+7
+8
+9
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z

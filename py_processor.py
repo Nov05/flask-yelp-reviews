@@ -3,6 +3,10 @@ import spacy
 import scattertext
 
 def processor(df_reviews):
+    
+    if len(df_reviews)==0:
+        return None
+    
     nlp = spacy.load("en_core_web_sm-2.1.0/en_core_web_sm/en_core_web_sm-2.1.0")
 
     # add stop words
@@ -11,10 +15,13 @@ def processor(df_reviews):
         set_stopwords = set(str.split('\n'))
     nlp.Defaults.stop_words |= set_stopwords
  
-    corpus = scattertext.CorpusFromPandas(df_reviews, 
+    corpus = (scattertext.CorpusFromPandas(df_reviews, 
                                           category_col='rating', 
                                           text_col='text',
-                                          nlp=nlp).build()
+                                          nlp=nlp)
+              .build()
+              .remove_terms(nlp.Defaults.stop_words, ignore_absences=True)
+             )
 
     term_freq_df = corpus.get_term_freq_df()
     term_freq_df['highratingscore'] = corpus.get_scaled_f_scores('5.0 star rating')

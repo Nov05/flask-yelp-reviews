@@ -1,6 +1,6 @@
 # flask-yelp-reviews
 
-This is a spaCy+scattertext NLP app hosted on Heroku.
+This is a web scraping + spaCy/scattertext NLP app hosted on Heroku.
 
 # About the app
 

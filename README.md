@@ -10,7 +10,9 @@ https://yelp-reviews.herokuapp.com/
 https://yelp-reviews.herokuapp.com/api/terms  
 
 **Request JSON example**    
-```{"yelp_url": "https://www.yelp.com/biz/aunt-jakes-new-york"}```   
+```
+{"yelp_url": "https://www.yelp.com/biz/aunt-jakes-new-york"}
+```   
 **Response JSON example**   
 ```
 {
@@ -93,3 +95,4 @@ Scattertext NLP
 
 Scattertext NLP   
 <img src="https://github.com/Nov05/pictures/blob/master/pic001/2019-09-08%2021_58_39-2019-09-07%20yelp%20reviews%20flask%20app.ipynb%20-%20Colaboratory.png?raw=true" width=700> 
+
